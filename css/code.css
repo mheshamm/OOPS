@@ -1,0 +1,16 @@
+form {
+    margin-top: 1em;
+}
+form .fa-lock {
+    top: 6px;
+}
+.code {
+    margin: 4em 0;
+    text-align: right;
+    font-family: Almarai;
+    color: rgb(209, 8, 85);
+    font-weight: bold;
+}
+.fa-circle {
+    color: rgb(255, 153, 0);
+}

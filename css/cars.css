@@ -1,0 +1,89 @@
+.search select {
+    margin: 1em auto;
+    max-width: 25%;
+   
+    
+    
+}
+.search input {
+    margin-left: 5px;
+    margin-top: 1em;
+    
+    
+}
+.selects {
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.cards , .special{
+    margin: 0;
+    background: rgb(23,8,0);
+background: linear-gradient(145deg, rgba(23,8,0,1) 0%, rgba(245,245,245,1) 0%, rgba(236,236,236,1) 82%, rgba(230,230,230,1) 100%, rgba(224,224,224,1) 100%);
+}
+.card-details{
+    background-color: white;
+}
+.card  {
+    background-color: transparent;
+    
+    
+}
+.card img {
+height: 100%;   
+
+}
+.image {
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 2em 0;
+}
+.pagination a {
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(255, 71, 117);
+
+    transition: .3s;
+  }
+  
+ 
+  .pagination a.active {
+    background: rgb(255,133,68);
+    background: linear-gradient(145deg, rgba(255,133,68,1) 0%, rgba(255,105,59,1) 100%);
+    color: white;
+  }
+  
+  
+  .pagination a:hover:not(.active) {
+    background: rgb(255,133,68);
+    background: linear-gradient(145deg, rgba(255,133,68,1) 0%, rgba(255,105,59,1) 100%);
+    }
+
+
+@media only screen and (max-width: 800px){
+    .selects select {
+        margin: 1em auto;
+    }
+    .selects{
+        flex-direction: column;
+    }
+    .selects select , .selects input {
+        
+        max-width: 100%;
+    }
+    
+}

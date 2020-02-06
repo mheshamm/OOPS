@@ -1,0 +1,266 @@
+<!doctype html>
+<html  lang="ar">
+  <head>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mohamed hesham">
+    <meta name="generator" content="">
+    <title>عربيات </title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\all.min.css" >
+    <link rel="stylesheet" href="css\home.css" >
+    <link rel="stylesheet" href="css\cars.css" >
+    
+   
+</head>
+  
+
+<body >
+
+    <section class="header">
+            <div class="add-btn">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a class="button" href="Add_e3lan.html">اضف اعلان</a>
+                </div>
+        <div class="logo">
+            <a href="#"> <img src="imgs\logo.png"> </a>
+
+        </div>
+
+    </section>
+    <section class="menu">
+        <div class="container">
+        <div class="row search col-10">
+            <div class="selects">
+                <form class="col-lg-3 col-md-10 col-sm-10" onsubmit="return search();">
+                    <input type="text" class="control col-12 " id="inp" placeholder="عن ماذا تبحث ؟">
+                </form>
+                    
+                    <select class="col-lg-3 col-md-10 col-sm-10">
+                        <option disabled selected  > ابحث عن منطقة معينة </option>
+                        <option value="1">القاهرة</option>
+                        <option value="2">الدقهلية</option>
+                        <option value="3">الاسكندرية</option>
+                        <option value="4">الغربية</option>
+                        <option value="5">الشرقية</option>
+                      </select>
+                    
+                    <select class="col-lg-3 col-md-10 col-sm-10" id="what" onchange=" return selecting();">
+                            <option  disabled selected  > ماذا تبحث </option>
+                            <option value="1" >سيارات</option>
+                            <option value="2">ملابس</option>
+                            <option value="3">أدوات كهربية</option>
+                            <option value="4">عقارات</option>
+                            <option value="5">حيوانات اليفة</option>
+                          </select>
+                        </div>
+                          <div class="selects " id="types"> 
+
+                          
+                        </div>
+                          
+                
+
+            </div>
+        
+    </div>
+    
+            
+           
+        
+        
+    </section>
+    
+            
+    
+
+    <section class="cards" >
+            <div class="cards-header">
+                    <h2>الاعلانات المميزة</h2>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="card col-lg-4 col-md-6 col-sm-12">
+                            <div class="image">
+                            <img src="imgs\car.jpg">
+                        </div>
+                            <div class="card-details">
+                                <h3>شيفروليه</h3>
+                                 <span id="price"><i class="fas fa-money-bill-alt"></i> 450,000 جنيه</span>
+                                 <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                                 <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                            </div>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-sm-12">
+                            <div class="image">
+                                <img src="imgs\car.jpg">
+                            </div>
+                                <div class="card-details">
+                                    <h3 >شيفروليه</h3>
+                                    <span id="price"><i class="fas fa-money-bill-alt"></i> 450 جنيه</span>
+                                 <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                                 <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="image">
+                                    <img src="imgs\car1.jpg">
+                                </div>
+                                    <div class="card-details">
+                                        <h3>شيفروليه</h3>
+                                        <span id="price"><i class="fas fa-money-bill-alt"></i> 450 جنيه</span>
+                                 <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                                 <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+        <div class="cards-header">
+            <h2>الاعلانات المميزة</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="image">
+              
+                    <img src="imgs\car.jpg">
+                </div>
+                    <div class="card-details">
+                        <h3>شيفروليه</h3>
+                         <span id="price"><i class="fas fa-money-bill-alt"></i> 450,000 جنيه</span>
+                         <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                         <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                    </div>
+                </div>
+                <div class="card col-lg-4 col-md-6 col-sm-12">
+                    <div class="image">
+                        <img src="imgs\car.jpg">
+                    </div>
+                        <div class="card-details">
+                            <h3>شيفروليه</h3>
+                            <span id="price"><i class="fas fa-money-bill-alt"></i> 450 جنيه</span>
+                         <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                         <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 col-md-6 col-sm-12">
+                        <div class="image">
+                            <img src="imgs\car1.jpg">
+                            </div>
+                            <div class="card-details">
+                                <h3>شيفروليه</h3>
+                                <span id="price"><i class="fas fa-money-bill-alt"></i> 450 جنيه</span>
+                         <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                         <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                            </div>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-sm-12">
+                            <div class="image">
+                                <img src="imgs\car1.jpg">
+                            </div>
+                                
+                                <div class="card-details">
+                                    <h3>شيفروليه</h3>
+                                    <span id="price"><i class="fas fa-money-bill-alt"></i> 450 جنيه</span>
+                         <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                         <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="image">
+                                    <img src="imgs\car.jpg">
+                                </div>
+                                    <div class="card-details">
+                                        <h3>شيفروليه</h3>
+                                        <span id="price"><i class="fas fa-money-bill-alt"></i> 450 جنيه</span>
+                         <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                         <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                                    </div>
+                                </div>
+                                <div class="card col-lg-4 col-md-6 col-sm-12">
+                                    <div class="image">
+                                        <img src="imgs\car1.jpg">
+                                    </div>
+                                        <div class="card-details">
+                                            <h3>شيفروليه</h3>
+                                            <span id="price"><i class="fas fa-money-bill-alt"></i> 450 جنيه</span>
+                         <span id="time"><i class="far fa-clock"></i> اليوم 12:30</span>
+                         <span id="place"><i class="fas fa-map-marker-alt"></i> المعادي</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="pagination">
+                                            
+                                            <a class="active" href="#">1</a>
+                                            <a  href="#">2</a>
+                                            <a href="#">3</a>
+                                            <a href="#">4</a>
+                                            
+                                          </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="logo-footer col-lg-3 col-md-6 col-sm-12">
+                    <img src="imgs/logo.png">
+                    <p>هو تصميم المواقع لعمل مواقع جاهزة بالنصوص جاهزة الاستبدال</p>
+                </div>
+                <div class="menu-footer col-lg-3 col-md-6 col-sm-12">
+                        <a href="#">الاسئلة الأكثر تداولا</a>
+                        <a href="#">شروط  الاستخدام</a>
+                        <a href="#">سياسة الخصوصية</a>
+                        <a href="#">خريطة المحافظات</a>
+                        <a href="#">خريط الموقع </a>
+                    </div>
+                    <div class="social-footer col-lg-3 col-md-6 col-sm-12">
+                            <a href="#"> <i class="fab fa-instagram"></i></a>
+                            <a href="#"> <i class="fab fa-twitter"></i> </a>
+                            <a href="#"> <i class="fab fa-facebook"></i></a>
+
+                        </div>
+                        <div class="download-footer col-lg-3 col-md-6 col-sm-12">
+                                <h2>قم بتحميل التطبيق</h2>
+                                <div id="android"><i class="fab fa-android"></i> Get It On Google Play </div>
+                                <div id="ios"><i class="fab fa-apple"></i> Get It On APP Store </div>
+    
+                            </div>
+            </div>
+        </div>
+
+    </footer>
+    
+    
+    
+        
+        
+       
+       
+            
+
+                    
+
+                
+        
+        
+   
+
+
+
+
+        <script src="js\jq.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+        <script src="js\jscode.js"></script>
+        <script src="js\cars.js"></script>
+    </body>
+</html>
+

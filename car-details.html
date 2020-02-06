@@ -1,0 +1,177 @@
+<!doctype html>
+<html  lang="ar">
+  <head>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mohamed hesham">
+    <meta name="generator" content="">
+    <title>تفاصيل الاعلان </title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\all.min.css" >
+    <link rel="stylesheet" href="css\home.css" >
+    <link rel="stylesheet" href="css\login.css" >
+    <link rel="stylesheet" href="css\code.css" >
+    <link rel="stylesheet" href="css\car-details.css" >
+    
+   
+</head>
+  
+
+<body >
+
+    <section class="header" id="header">
+            <div class="add-btn">
+                    <a href="#"><i class="fas fa-user"></i></a>
+                    <a class="button" href="Add_e3lan.html">اضف اعلان</a>
+                </div>
+        <div class="logo">
+            <a href="#"> <img src="imgs\logo.png"> </a>
+
+        </div>
+
+    </section>
+
+    <section class="add">
+        
+        <div class="container">
+            <div class="row">
+                <div class="car-details col-md-8 col-sm-12">
+                        <div class="car-header">
+                                <h2> شيفروليه </h2>
+                                <div class="location">
+                                    <h5 id="loc">  القاهرة , المعادي</h5>
+                                    <h5> | تم إضافة الاعلان في  </h5>
+                                    <h5 id="time"> 12:30 </h5>
+                    
+                                </div>
+                            </div>
+                    <div class="car-img">
+                        <img src="imgs\car.jpg" alt="car">
+
+                    </div>
+                    <div class="buttons">
+                        <button class="fav" id="fav"><i id="st" class="far fa-star "></i><br> أضف الي المفضلة</button>
+                        <button class="problem"> <i class="fas fa-info-circle"></i> <br> الابلاغ عن مشكلة</button>
+                    </div>
+                    <div class="details-car">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12" id="car-item">الموديل : كروز</div>
+                            <div class="col-md-6 col-sm-12" id="car-item" >طريقة الدفع : كاش</div>
+                            <div class="col-md-6 col-sm-12" id="car-item">ناقل الحركة : اوتوماتيك</div>
+                            <div class="col-md-6 col-sm-12" id="car-item">الحالة : مستعمل</div>
+                            <div class="col-md-6 col-sm-12" id="car-item">كيلومترات : 70,000</div>
+                            <div class="col-md-6 col-sm-12" id="car-item">المحرك 1600 CC</div>
+                            <div class="col-md-6 col-sm-12" id="car-item">السنة : 2018</div>
+                            <div class="col-md-6 col-sm-12" id="car-item">اضافات : 
+                                <span>تكييف</span>
+                                <span>فتحة سقف</span>
+                                <span>AUX</span>
+                                <span>بلوتوث</span>
+                            </div>
+                            <div class="col-12" id="caar">
+                                <h3>تفاصيل</h3>
+                                <div id="car-item">عربية بحالة جيدة و مش محتاجة حاجة</div>
+                            </div>
+                            <div class="col-12" id="caar">
+                                    <h3>ارسل رسالة</h3>
+                                    <div id="error">أدخل الرسالة من فضلك يجب أن لا تقل عن 20 حرف</div>
+                                    <form onsubmit="return val();">
+                                   <textarea id="s-msg"></textarea>
+                                </div>
+                                <div class=" add-btn cards-button">
+                                        <button type="submit" >ارسال </button>
+                                    </div>
+                                </form>
+                                    
+                    </div>
+                </div>
+                </div>
+                <div class="car-price col-md-4 col-sm-12">
+                    <div id="price">200,000 جنيه</div>
+                    <button class="btn-car" id="send" onclick="return send();">ارسل رسالة </button>
+                    <button class="btn-car" id="call"onclick="return calll();">اتصال </button>
+                    <div class="sell-info">
+                        <div>
+                                
+                                <h3 id="seller"><i class="far fa-user"></i>محمد محروس </h3>
+                                <span>مسجل خطر</span>
+                        </div>
+                        <a href="#">اعلانات هذا المستخدم</a>
+                    </div>
+                    <div class="istructions">
+                        <h2>سلامتك تهمنا</h2>
+                        <span><i class="fas fa-circle"></i> قابل البائع في مكان عام زي المترو كدا</span>
+                        <span><i class="fas fa-circle"></i>خد حد معاك و أنت رايح تقابله</span>
+                        <span><i class="fas fa-circle"></i>عاين المنتج كويس جدا قبل ما تشتري</span>
+                        <span><i class="fas fa-circle"></i>شوف السعر بتاعه مناسب ولا لا</span>
+                        <span><i class="fas fa-circle"></i>متدفعش فلوس الا لما تتأكد من المنتج و تشوفه كويس </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="logo-footer col-lg-3 col-md-6 col-sm-12">
+                    <img src="imgs/logo.png">
+                    <p>هو تصميم المواقع لعمل مواقع جاهزة بالنصوص جاهزة الاستبدال</p>
+                </div>
+                <div class="menu-footer col-lg-3 col-md-6 col-sm-12">
+                        <a href="#">الاسئلة الأكثر تداولا</a>
+                        <a href="#">شروط  الاستخدام</a>
+                        <a href="#">سياسة الخصوصية</a>
+                        <a href="#">خريطة المحافظات</a>
+                        <a href="#">خريط الموقع </a>
+                    </div>
+                    <div class="social-footer col-lg-3 col-md-6 col-sm-12">
+                            <a href="#"> <i class="fab fa-instagram"></i></a>
+                            <a href="#"> <i class="fab fa-twitter"></i> </a>
+                            <a href="#"> <i class="fab fa-facebook"></i></a>
+
+                        </div>
+                        <div class="download-footer col-lg-3 col-md-6 col-sm-12">
+                                <h2>قم بتحميل التطبيق</h2>
+                                <div id="android"><i class="fab fa-android"></i> Get It On Google Play </div>
+                                <div id="ios"><i class="fab fa-apple"></i> Get It On APP Store </div>
+    
+                            </div>
+            </div>
+        </div>
+
+    </footer>
+    
+    
+    
+        
+        
+       
+       
+            
+
+                    
+
+                
+        
+        
+   
+
+
+
+
+        <script src="js\jq.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+        <script src="js\jscode.js"></script>
+        <script src="js\cd.js"></script>
+    </body>
+</html>
+

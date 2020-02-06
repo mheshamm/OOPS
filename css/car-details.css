@@ -1,0 +1,217 @@
+.row {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.add{
+    background-color: rgb(231, 231, 231);
+    padding-bottom: 5em;
+}
+
+.car-img  {
+    width: 100%;
+}
+.car-img img {
+    width: 100%;
+}
+.car-header {
+    font-family: Almarai;
+    text-align: right;
+    padding: 1em 0;
+    
+}
+.location {
+    display: flex;
+    font-size: 20px;
+    color: rgb(190, 8, 99);
+}
+.buttons {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+.buttons button {
+    background-color: transparent;
+    border: none;
+    width: auto;
+    margin: 0 5px;
+    font-family: Almarai;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.fav {
+    color: rgb(184, 21, 75);
+}
+.problem {
+    color: orangered;
+}
+.fav:hover {
+    background-color:  rgb(184, 21, 75);
+    color:white;
+
+
+}
+.problem:hover {
+    background-color: orangered;
+    color:white;
+}
+.details-car {
+    width: 100%;
+    font-family: almarai;
+    text-align: right;
+    font-size: 20px;
+    margin: 2em 0;
+}
+#car-item {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 45%;
+    height: fit-content;
+    
+    
+
+}
+#car-item span {
+    display: block;
+}
+#caar #car-item {
+    max-width: 100%;
+    width: 100%;
+}
+#caar textarea {
+    width: 100%;
+    height: 30vh;
+    border-radius: 20px;
+}
+#caar h3 {
+    color:rgb(184, 21, 75);
+    margin-bottom: 1em;
+}
+.add .add-btn button {
+    background: rgb(255,146,68);
+background: linear-gradient(76deg, rgba(255,146,68,1) 0%, rgba(255,0,116,1) 100%);
+width: 200px;
+height: 3em;
+}
+.add .add-btn button:hover {
+    background: rgb(255,0,116);
+background: linear-gradient(76deg, rgba(255,0,116,1) 0%, rgba(255,146,68,1) 100%);
+}
+#price {
+    margin: 2em 0;
+    width: 100%;
+    background-color: white;
+    font-family: Almarai;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(184, 21, 75);
+}
+.btn-car {
+    width: 90%;
+    margin: 2em 0;
+    border: none;
+    border-radius: 20px;
+    font-family: Almarai;
+    font-size: 2em;
+    text-align: center;
+    color:white;
+    height: 2em;
+}
+#send {
+    background-color: rgb(184, 21, 75);
+
+}
+#call {
+    background-color: rgb(253, 101, 46);
+}
+.anii{
+    
+    animation-name: e;
+    animation-duration:3s;
+    
+    
+    
+
+}
+#caar form {
+    margin-top: 0;
+}
+textarea{
+    resize: none;
+}
+.ora{
+    color: orangered;
+}
+@keyframes e {
+    from {width: 80%;
+        
+        transform: rotateY(90deg);
+        
+        }
+        to {width: 90%;
+            transform: scale(1);
+            
+            transform: rotateY(0deg);
+           }
+}
+#error {
+    background-color: rgb(255, 98, 132);
+    padding: 10px;
+    text-align: right;
+    display: none;
+}
+.sell-info {
+    background-color: white;
+    border-radius: 20px;
+    margin: 2em 0;
+    font-family: Almarai;
+    text-align: center;
+    color: rgb(184, 21, 75);
+    padding: 1em 0;
+}
+#seller .fa-user {
+    color: rgb(184, 21, 75);
+    padding-top: 10px;
+    font-size: 30px;
+
+}
+.sell-info a {
+    color: black;
+    text-decoration: none;
+    margin-top: 1em;
+    display: block;
+}
+.istructions {
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    border-radius: 20px;
+    padding: 1em ;
+    font-family: almarai;
+    color:white;
+    font-size: 1em;
+    text-align: right;
+
+}
+.istructions span {
+    display: block;
+    padding: 10px 0;
+}
+.istructions h2 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 770px){
+
+    #price {
+        margin: 10px 0;
+    }
+    .btn-car{
+        margin: 1em ;
+    }
+    .sell-info {
+        margin: 1em;
+    }
+}

@@ -1,0 +1,127 @@
+.header {
+    height: auto;
+}
+.add-btn {
+    padding-bottom: 0;
+}
+.logo img {
+    width: 80%;
+    margin: 0 auto;
+}
+.log {
+    padding: 5em 0;
+    background-color: rgb(236, 236, 236);
+}
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0 20px 20px 0 ;
+}
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+form input {
+    position: relative;
+    background: rgb(209, 8, 85);
+    border-radius: 20px;
+    height: 3em;
+    border: 0;
+    color:white;
+    font-family: Almarai;
+    padding-right: 3.5em;
+    margin-bottom: 2em;
+    
+
+}
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+  }
+
+form .fa-user{
+    position: absolute;
+    font-size: 2em;
+    right: 10px;
+    top: 5px;
+    
+    
+    
+
+}
+form .fa-lock{
+    position: absolute;
+    font-size: 2em;
+    right: 10px;
+    top: 87px;
+    color: white;
+
+
+}
+#error{
+    
+    background-color: rgb(255, 86, 44);
+    margin: 1em 0;
+    color: white;
+    text-align: right;
+}
+form .fa-user:hover{
+    cursor: auto;
+    color: white;
+    
+
+}
+.cards-button button {
+    width: 10em;
+    height: 3em;
+    background: none;
+    background-color: rgb(209, 8, 85);
+    font-size: 1em;
+
+}
+.ani{
+    animation-name: er;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+
+}
+@keyframes er {
+    from {color: red;
+    transform: translateX(10px);}
+    to {color: rgb(255, 72, 0);
+        transform: translateX(-10px);}
+  }
+.forget {
+    display: flex;
+    justify-content: right;
+    margin: 3em 0 ;
+
+}
+.forget a {
+    color:  rgb(209, 8, 85);
+    font-family: Almarai;
+    text-decoration: none;
+}
+.forget .new {
+    margin-right: auto;
+}
+.login-img{
+    background: rgb(255,146,68);
+background: linear-gradient(76deg, rgba(255,146,68,1) 0%, rgba(255,0,116,1) 100%);
+display: flex;
+justify-content: center;
+
+}
+.login-img img {
+    width: 50%;
+    margin: auto;
+}
+.log .row {
+    box-shadow: 10px 10px rgb(226, 226, 226);
+    border-radius: 20px;
+}

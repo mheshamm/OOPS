@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
+
+*{
+    outline: none;
+}
+body{
+    direction: rtl;
+}
+.header {
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-bottom: 2em;
+}
+.add-btn {
+    display: flex;
+    justify-content: right;
+    padding: 2em;
+}
+.fa-user {
+    padding-left: 1em;
+    color: white;
+    font-size: 2em;
+}
+.fa-user:hover {
+    color:rgb(255, 94, 0);
+}
+.add-btn a {
+    margin:0;
+    padding: 0;
+}
+.add-btn .button {
+    border: none;
+    background-color: white;
+    font-family: Almarai;
+    color: rgb(253, 29, 66);
+    border-radius: 10px;
+    width: 8em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+    margin: auto 0;
+    
+    
+    }
+    
+    .add-btn .button:hover , .add-btn button a:hover{
+        background-color: rgb(255, 94, 0);
+        color: white;
+    }
+    
+    .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding-bottom: 2em;
+    }
+    .logo img {
+        width: 100%;
+        
+    }
+    .search {
+        background: rgb(255,0,91);
+        background: linear-gradient(90deg, rgba(255,0,91,1) 0%, rgba(235,7,80,1) 33%, rgba(222,133,30,1) 74%, rgba(221,143,26,1) 100%);
+        margin: 0 auto;
+        margin-top: -3em;
+        padding: 2.5em;
+        display: flex;
+        font-family: Almarai;
+        max-width: 100%;
+
+    }
+    
+    .search .control {
+        height: 3em;
+        border-radius: 25px;
+        border: none;
+        margin-left: 2em;
+        width: 100%;
+
+    }
+    .search select {
+        border-radius: 25px;
+        border: none;
+        margin-left: 2em;
+        width: 100%;
+        height: 3em;
+    }
+    .search select option{
+    background-color: rgb(243, 60, 90);
+    color: white;
+    
+}
+.search button {
+    border: none;
+    background-color: white;
+    font-family: Almarai;
+    color: rgb(253, 29, 66);
+    border-radius: 10px;
+    width: 6em;
+    font-weight: bold;
+
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    height: 100%;
+    
+    margin: 1em auto;
+    width: 100%;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+   
+    
+}
+.item i {
+   
+    font-size: 2em;
+    color:white;
+    border-radius: 50%;
+    margin: 1em auto;
+    padding: 1em;
+    
+    width: 100px;
+    height: 100px;
+}
+.item select {
+    background-color: rgb(23, 8, 49);
+    font-family: almarai;
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
+    height: 3em;
+}
+.fa-car {
+    background: rgb(255,0,91);
+    background: linear-gradient(90deg, rgba(255,0,91,1) 0%, rgba(237,6,81,1) 37%, rgba(235,7,80,1) 40%, rgba(222,133,30,1) 87%, rgba(224,117,36,1) 100%, rgba(33,33,33,1) 100%);
+}
+.fa-mobile-alt{
+    background: rgb(23,8,0);
+background: linear-gradient(145deg, rgba(23,8,0,1) 4%, rgba(74,7,18,1) 9%, rgba(170,4,53,1) 57%, rgba(255,2,84,1) 88%);
+}
+.fa-home{
+    background: rgb(23,8,0);
+background: linear-gradient(145deg, rgba(23,8,0,1) 0%, rgba(63,32,0,1) 0%, rgba(94,50,0,1) 0%, rgba(155,86,0,1) 55%, rgba(250,142,0,1) 100%);
+}
+.fa-tshirt{
+    background: rgb(0,216,251);
+background: radial-gradient(circle, rgba(0,216,251,1) 28%, rgba(0,189,255,1) 72%);
+}
+.fa-desktop {
+    background: rgb(251,0,72);
+background: linear-gradient(145deg, rgba(251,0,72,1) 16%, rgba(0,0,0,1) 100%);
+}
+.fa-paw {
+    background: rgb(23,8,0);
+background: linear-gradient(145deg, rgba(23,8,0,1) 11%, rgba(133,46,0,1) 52%, rgba(255,89,0,1) 93%);
+}
+select {
+    width: 100%;
+}
+.cards {
+    margin: 2em 0;
+}
+.cards-header {
+    display: flex;
+    justify-content: right;
+    margin: 1em 0;
+    font-family: Almarai;
+    padding: 1em 2em;
+
+}
+.cards-header h2 {
+    border-right: 5px solid orange;
+    padding-right: 10px ;
+    color: palevioletred;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 1em 0;
+    
+    
+
+}
+.card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    
+}
+.card-details {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 1em;
+    font-family: Almarai;
+    font-size: 1.5em;
+    border-radius: 0px 0 20px 20px;
+    background-color: rgb(241, 241, 241);
+}
+.card-details h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+.card-details i {
+    padding-left: 1em;
+    color: rgb(255, 71, 71);
+}
+.cards-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.cards-button button {
+    width: 10em;
+    border: none;
+    background: rgb(23,8,0);
+background: linear-gradient(145deg, rgba(23,8,0,1) 0%, rgba(250,0,110,1) 0%, rgba(255,180,80,1) 100%);
+font-family: Almarai;
+
+color: white;
+border-radius: 15px;
+font-size: 2em;
+}
+.join {
+    margin-top: 2em ;
+    padding: 2em 0 ;
+    background-color: #fc8c61;
+}
+.join-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Almarai;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.join-details input {
+    height: 3em;
+    border-radius: 15px;
+    border: none;
+    padding-right: 1em;
+    margin: 1em 0;
+}
+.join-details button {
+    width: 10em;
+    margin: 10px auto;
+    height: 3em;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: orangered;
+    font-size: 1.2em;
+}
+footer {
+    background-color: #cf455c;
+padding:2em 0 ;
+
+}
+footer .container {
+    max-width: 2000px;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    font-family: Almarai;
+    color: white;
+    font-size: 1.2em;
+    text-align: right;
+
+}
+.logo-footer img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Almarai;
+    justify-content: center;
+    font-size: 1.5em;
+    text-align: right;
+    padding-right: 3em;
+    margin: 0;
+}
+.menu-footer a {
+    color: white;
+    text-decoration: none;
+}
+.social-footer {
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    padding-top: 1em;
+}
+.social-footer a {
+    color: white;
+    margin: 0 15px;
+
+}
+.fa-instagram:hover {
+    color: purple;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: lightseagreen;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: blue;
+    cursor: pointer;
+}
+.download-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: Almarai;
+    text-align: center;
+}
+.download-footer div {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 0px;
+    font-family: cursive;
+    font-size: 20px;
+    color: #cf455c;
+    margin: 1em auto;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+.download-footer i {
+    font-size: 3em;
+    margin-top: -14px;
+    padding-right: 5px;
+}
+@media only screen and (max-width: 800px){
+    
+    .search {
+        padding-bottom: 1em;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .control {
+      margin-left: 0;
+    }
+    .search select {
+        margin:  1em 0;
+    }
+    .search button {
+        margin: 0 auto;
+        
+    }
+    .item{
+        max-width: 50%;
+    }
+    .item i {
+        padding: 1em 0;
+         
+        
+        width: 100%;
+    }
+    .social-footer {
+        margin-bottom: 1em;
+    }
+    .logo-footer {
+        margin: 1em 0;
+
+    }
+    .menu-footer{
+        margin-top: 1em;
+        padding: 0;
+        text-align: center;
+    }
+    
+}
